@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('http://cdn.hexabyte.me/comfortaa.ttf');
+}
+body {
+    background-image:     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('http://cdn.hexabyte.me/HexabyteBackground.png') !important;
+    background-repeat: no-repeat;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+}
+.hero h1 {
+    text-align: center;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 72px;
+}
+.hero h3 {
+    color: white;
+    font-size: 30px;
+}
+#google-search {
+    margin-top: 0 !important;
+    margin: auto;
+    width: 90vh;
+}
+.quick-links {
+    margin: auto;
+    margin-bottom: 9rem !important;
+    margin-top: 0;
+}
+.card {
+    transition: all .2s;
+    margin: 0;
+}
+.card:hover {
+    transform: scale(1.1);
+}
